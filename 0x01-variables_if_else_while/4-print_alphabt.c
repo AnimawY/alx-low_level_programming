@@ -1,19 +1,21 @@
 #include <stdio.h>
-/*
- * Displaying small case characters xcept the letter q and e
- */
 
+/**
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (ch == 'q' || ch == 'e')
-		{
-			continue;
-		}
-		putchar(ch);
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
-	printf("\n");
+
+	putchar('\n');
+
 	return (0);
 }
