@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_sign - prints the sign of the number
+/**
+ * print_sign - prints the sign of the number
  * @n - the number it's sign to be determined
  * return -alwasys 0
  */
