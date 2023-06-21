@@ -1,22 +1,22 @@
 #include "main.h"
 
-/* printsign - prints the sign of the number
+/** print_sign - prints the sign of the number
  * @n - the number it's sign to be determined
  * return -alwasys 0
  */
 int print_sign(int n)
 {
-	if (n > 0 )
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (n < 0 )
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar('0');
 		return (0);
