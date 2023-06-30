@@ -7,8 +7,6 @@
  *
  * Return: The concatenated string
  */
-
-
  char *_strcat(char *dest, char *src)
 {
 	int i = 0, j = 0;
@@ -18,5 +16,5 @@
 	for (i = 0; src[i]; i++)
 		dest[j++] = src[i];
 
-	return(dest);
+	return (dest);
 }
